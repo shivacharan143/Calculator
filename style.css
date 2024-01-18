@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    background-color: #eeb3b3;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:90px;
+    color:orangered
+}
 .container{
     position:absolute;
     left:50%;
@@ -12,6 +22,7 @@
     border-radius: 8px 8px 0 0;
     background: white;
     box-shadow:2px 2px 8px rgba(0, 0, 0, 0.4);
+    
 }
 .result{
     background-color: black;
